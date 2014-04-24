@@ -65,5 +65,7 @@
    *  Fast Search enabled with JSCRIPT
    *  Form created from Spreadsheet for users to add their Github information
    *  Spreadsheet can be edited outside of form for quick edits and additions
+   
+**Have a thought or suggestion? Please go here: https://github.com/CodeForRockford/codeforrockford/issues**
 
 
