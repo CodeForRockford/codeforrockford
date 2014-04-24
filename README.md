@@ -1,6 +1,6 @@
 **CodeForRockford**
 
-Website for Rockford's monthly OpenData Coding Sessions
+  - Website for Rockford Brigade.
 
 *Quick Facts* Built using...
   * WordPress
