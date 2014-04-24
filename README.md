@@ -2,13 +2,15 @@
 
   - Website for Rockford Brigade.
 
-*Quick Facts* Built using...
-  * WordPress
-  * plain HTML
-  * Javascript
-  * JSON
-  * Ajax
-  * CSS
+*Quick Facts* 
+  * Website wsa developed using...
+   * WordPress
+   * plain HTML
+   * Javascript
+   * JSON
+   * Ajax
+   * CSS
+   * Tons of coffeee
 
 **Javascript libraries**
 
