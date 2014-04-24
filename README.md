@@ -1,6 +1,6 @@
 **CodeForRockford**
 
-  - Website for Rockford Brigade.
+  - Website for Rockford Brigade http://codeforrockford.com/
 
 *Quick Facts* 
   * Website developed using...
