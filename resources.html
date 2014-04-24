@@ -33,7 +33,7 @@
           <div class='col-md-7'>
             <p>Data portals, APIs, tools, tutorials and free developer infrastructure for making civic apps in the Rockford region.</p>
 
-            <p>This page is still a work in progress. If you'd like to help out, <a href='https://github.com/open-city/open-gov-hack-night/issues/28'>join the discussion on <i class='icon-github'></i> Github</a>.</p>
+            <p>This page is still a work in progress. If you'd like to help out, <a href='https://github.com/CodeForRockford/codeforrockford/issues/1' target='_blank'>join the discussion on <i class='icon-github'></i> Github</a>.</p>
           </div>
 
           <div class='col-md-5'>
@@ -55,30 +55,29 @@
               <i class='icon-cloud-download'></i> 
               Data portals
             </h2>
-            <p>One of the best places to get open government data is from their official data portal. <a href='https://data.cityofchicago.org'>Chicago</a>, <a href='http://data.cookcountyil.gov'>Cook County</a>, <a href='https://data.illinois.gov/'>Illinois</a> and the <a href='http://www.data.gov/'>US Federal Government</a> post their data on these portals for anyone to access for free.</p>
-            <div class='col-md-3 text-center'>
-              <a href='https://data.cityofchicago.org'>
+            <p>One of the best places to get open government data is from their official data portal. <a href='https://data.illinois.gov/rockford'  target='_blank'>Rockford</a>, <a href='https://data.cityofchicago.org' target='_blank'>Chicago</a>, <a href='http://data.cookcountyil.gov' target='_blank'>Cook County</a>, <a href='https://data.illinois.gov/' target='_blank'>Illinois</a> and the <a href='http://www.data.gov/' target='_blank'>US Federal Government</a> post their data on these portals for anyone to access for free.</p>
+           
+           <div class='col-md-3 text-center'>
+           <a href='https://data.illinois.gov/rockford' target='_blank'>
+           <img src='images/cityofrockfordlogo.jpg' title='City of Rockford' />
+           <br />City of Rockford
+           </a>
+           </div>
+           <div class='col-md-3 text-center'>
+              <a href='https://data.cityofchicago.org' target='_blank'>
                 <img src='images/chicago_city_seal.png' title='City of Chicago' />
                 <br />City of Chicago
               </a>
             </div>
-
             <div class='col-md-3 text-center'>
-              <a href='http://data.cookcountyil.gov'>
-                <img src='images/cook_county_seal.gif' title='Cook County' />
-                <br />Cook County
-              </a>
-            </div>
-
-            <div class='col-md-3 text-center'>
-              <a href='https://data.illinois.gov/'>
+              <a href='https://data.illinois.gov/' target='_blank'>
                 <img src='images/illinois_state_seal.gif' title='State of Illinois' />
                 <br />State of Illinois
               </a>
             </div>
 
             <div class='col-md-3 text-center'>
-              <a href='http://www.data.gov/'>
+              <a href='http://www.data.gov/' target='_blank'>
                 <img src='images/usa_federal_seal.png' title='US Federal Government' />
                 <br />US Federal Government
               </a>
@@ -94,7 +93,7 @@
               Other open data sources 
               <small id='data-count'></small>
             </h2>
-            <p>Open data portals and APIs available in Rockford. Are we missing any? <a href='https://docs.google.com/spreadsheet/viewform?usp=drive_web&formkey=dGNJVlJ6c21LYzZiZVZTby1vNXRBY0E6MA#gid=0'>Add them to our list!</a></p>
+            <p>Open data portals and APIs available in Rockford. Are we missing any? <a href='https://docs.google.com/spreadsheet/viewform?usp=drive_web&formkey=dGdqX1dXcnBtUUx5TWJiSTF2ZkxFRmc6MA#gid=0' target='_blank'>Add them to our list!</a></p>
 
             <table id='open-data-table' class='table table-striped'>
               <thead>
@@ -119,7 +118,7 @@
               Free developer infrastructure
               <small id='infrastructure-count'></small>
             </h2>
-            <p>Free services and computing infrastructure for civic app developers. Are we missing any? <a href='https://docs.google.com/spreadsheets/d/1Kg9q9t-wJAHodXD8uYKYZQZ8mOMLlPuPzxbEcXYGgm4/edit#gid=0'>Add them to our list!</a></p>
+            <p>Free services and computing infrastructure for civic app developers. Are we missing any? <a href='https://docs.google.com/spreadsheet/viewform?usp=drive_web&formkey=dGNJVlJ6c21LYzZiZVZTby1vNXRBY0E6MA#gid=0' target='_blank'>Add them to our list!</a></p>
 
             <table id='developer-infrastructure-table' class='table table-striped'>
               <thead>
@@ -214,16 +213,11 @@
           <td>{{category}}</td>\
           <td>\
             <p>{{description}}</p>\
-            <ul class='list-inline link-list'>\
-              <li><a href='{{link_url_1}}' target='_blank'>{{link_name_1}}</a></li>\
-              <li><a href='{{link_url_2}}' target='_blank'>{{link_name_2}}</a></li>\
-              <li><a href='{{link_url_3}}' target='_blank'>{{link_name_3}}</a></li>\
-            </ul>\
           </td>\
         </tr>\
         ";
  
-      populate_table("0AllyrSvzIZApdGNJVlJ6c21LYzZiZVZTby1vNXRBY0E", "open-data-table", "data-count", data_template, [ [0,'asc'] ], [ null, null, null ], 'data-search');
+      populate_table("0AllyrSvzIZApdGdqX1dXcnBtUUx5TWJiSTF2ZkxFRmc", "open-data-table", "data-count", data_template, [ [0,'asc'] ], [ null, null, null ], 'data-search');
 
       // populate free developer infrastructure
       var infrastructure_template = "\
@@ -238,7 +232,7 @@
         </tr>\
         ";
 
-      populate_table("0AllyrSvzIZApdGNJVlJ6c21LYzZiZVZTby1vNXRBY0E", "developer-infrastructure-table", "infrastructure-count", infrastructure_template, [ [0,'asc'] ], [ null, null, null ], 'tools-search');
+      populate_table("0AllyrSvzIZApdGNJVlJ6c21LYzZiZVZTby1vNXRBY0E", "developer-infrastructure-table", "infrastructure-count", infrastructure_template, [ [0,'asc'] ], [ null, null, null], 'tools-search');
 
     </script>
   </body>
