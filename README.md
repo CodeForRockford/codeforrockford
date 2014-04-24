@@ -12,10 +12,10 @@ jQuery Address - for deep linking URLs on the projects page
 100% Responsive Design
 
 Home Page
-..*Interactive news posts using Jquery and Jscript
+***Interactive news posts using Jquery and Jscript
 
 About Page
-*Static html
+***Static html
 
 
 
