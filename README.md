@@ -3,7 +3,7 @@
   - Website for Rockford Brigade.
 
 *Quick Facts* 
-  * Website wsa developed using...
+  * Website developed using...
    * WordPress
    * plain HTML
    * Javascript
