@@ -5,20 +5,17 @@ Built in WordPress, plain HTML, Javascript and CSS
 
 Javascript libraries
 
-Bootstrap 3.0 From Twitter - HTML and CSS layouts
-DataTables - for searching and sorting talbes
-Mustache - templating library for javascript (used on projects page)
-jQuery Address - for deep linking URLs on the projects page
-100% Responsive Design
+  *Bootstrap 3.0 From Twitter - HTML and CSS layouts
+  *DataTables - for searching and sorting talbes
+  *Mustache - templating library for javascript (used on projects page)
+  *jQuery Address - for deep linking URLs on the projects page
+  *100% Responsive Design
 
 Home Page
-***Interactive news posts using Jquery and Jscript
+  *Interactive news posts using Jquery and Jscript
 
 About Page
-***Static html
-
-
-
+  *Static html
 
 Projects and People
 
