@@ -1,6 +1,7 @@
 **CodeForRockford**
 
   - Website for Rockford Brigade http://codeforrockford.com/
+  - **Have a thought, suggestion, or problem concerning the website? Please go here: https://github.com/CodeForRockford/codeforrockford/issues**
 
 *Quick Facts* 
   * Website developed using...
