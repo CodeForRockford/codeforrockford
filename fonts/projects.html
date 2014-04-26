@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-                <title>People | CodeForRockford</title>
+                <title>Resources | CodeForRockford</title>
                 <!-- Bootstrap core CSS -->
                 <link href="css/bootstrap.min.css" rel="stylesheet">
                     <link href="css/font-awesome.css" rel="stylesheet">
@@ -72,7 +72,7 @@
                                         <div class="cancel-search">Cancel</div>
                                         </form>
                                         </div>
-                                      <div id="top-navigation" class="col-md-11">
+                                     <div id="top-navigation" class="col-md-11">
 				<div class="menu-opendata-3-container"><ul id="menu-opendata-3" class="menu"><li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-19"><a href="http://www.codeforrockford.com/">Home</a></li>
 <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://www.codeforrockford.com/about/">About</a></li>
 <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://www.codeforrockford.com/events/">Events</a></li>
@@ -129,7 +129,7 @@
                                         </div>
                                         
                                         
-                                        <h1 class="container single-entry-title">People</h1>
+                                        <h1 class="container single-entry-title">Projects</h1>
                                         <div id="content" class="site-content container row clearfix clear">
                                         <div class="container">
                                         
@@ -143,7 +143,13 @@
                                         <div class="entry-content">
                                         
                                         <!--#PASTE CONTENT HERE-->
-                                        
+                                        <h1>Projects<small id="project-count"></small></h1>
+                                        Open source civic tech projects from Rockford's OpenData community. You can participate in three ways:
+                                        <ol>
+                                        <li><strong><a href="http://rockford.hackdash.org/">Start a new project</a></strong> - Share ideas and Find collaborators for your project on our <a href="http://rockford.hackdash.org/">Hack Dash page</a>.</li>
+                                        <li><strong>Join a team</strong> - Contribute to an existing team by attending OpenData Sessions the 2nd Saturday of each month.</li>
+                                        <li><strong>Share your existing project</strong> - If you have a civic app and it's open sourced on <a href="https://github.com/">Github</a>, share it with us and we will keep track of it below.</li>
+                                        </ol>
                                         <div class="container">
                                         <div class='col-md-10 col-md-offset-1'>
                                         
@@ -154,17 +160,18 @@
                                         <div class=''>
                                         <h2>
                                         <i class='icon-cogs'></i>
-                                        People
+                                        Repositories
                                         <small id='infrastructure-count'></small>
                                         </h2>
-                                        <p>Developers, creative thinkers, designers, data scientists, and geeks that desire to work on civic tech projects in Rockford. 
-										<br><b>Is your name missing?<b> <a href='https://docs.google.com/spreadsheet/viewform?usp=drive_web&formkey=dGVXbHVlSkpxN3FMUjZHUlZEVjBNN1E6MA#gid=0' target='_blank'> add your genius now!</a></p>
+                                        <p>Are we missing your project? <a href='https://docs.google.com/spreadsheet/viewform?formkey=dHZIeHpudy0yYkxvSzR6dXJQYVVKQ1E6MA#gid=0' target='_blank'> Add them to our list!</a></p>
                                         
-                                        <table id='github-table' class='table table-striped'>
+                                        <table id='repo-table' class='table table-striped'>
                                         <thead>
                                         <tr>
-                                        <th class='api-title'>GitHub UserName</th>
-                                        <th>Languages</th>
+                                        <th class='api-title'>Title</th>
+                                        <th>Language</th>
+                                        <th>Description</th>
+                                        <th>Website</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -244,17 +251,23 @@
                                         }
                                         
                                         
-                                        // populate project table
+                                        // populate repo table
                                         var infrastructure_template = "\
                                         <tr>\
                                         <td>\
-                                        <h4><a href='https://github.com/{{github_username}}' target='_blank'>{{github_username}}</a></h4>\
+                                        <h4><a href='{{repository_url}}' target='_blank'>{{project_title}}</a></h4>\
                                         </td>\
-                                        <td>{{languages}}</td>\
+                                        <td>{{language}}</td>\
+                                        <td>\
+                                        <p>{{description}}</p>\
+                                        </td>\
+                                        <td>\
+                                        <a href='{{website}}' target='_blank'>{{website}}</a>\
+                                        </td>\
                                         </tr>\
                                         ";
                                         
-                                        populate_table("0AllyrSvzIZApdGVXbHVlSkpxN3FMUjZHUlZEVjBNN1E", "github-table", "infrastructure-count", infrastructure_template, [ [0,'asc'] ], [ null, null], 'tools-search');
+                                        populate_table("0AllyrSvzIZApdHZIeHpudy0yYkxvSzR6dXJQYVVKQ1E", "repo-table", "infrastructure-count", infrastructure_template, [ [0,'asc'] ], [ null, null,null,null], 'tools-search');
                                         
                                         </script>
                                         
