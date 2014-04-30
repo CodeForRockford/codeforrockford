@@ -179,50 +179,12 @@
                             <article id="post-7" class="post-7 page type-page status-publish hentry">
                             
                             <div class="entry-content">
-                            <p>Open source civic tech projects from Chicago's open gov community. You can participate in three ways:</p>
-                            
-                            <ol>
-                                <li>
-                                    <strong><a href='http://rockford.hackdash.org' target='_blank'>Start a new project</a></strong> - Share ideas and Find collaborators for your project on our <a href='http://rockford.hackdash.org'>Hack Dash page</a>.
-                                        </li>
-                                        <li>
-                                        <strong><a id='project-needs' href='http://www.codeforrockford.com/home/people.html'>Join a team</a></strong> - Contribute to an existing team by searching below <strong>description</strong> label.
-                                        </li>
-                                        <li>
-                                        <strong><a id='share-toggle' href='https://docs.google.com/spreadsheet/viewform?formkey=dHZIeHpudy0yYkxvSzR6dXJQYVVKQ1E6MA#gid=0'>Share your existing project</a></strong> - If you have a civic app and it's open sourced on <a href='github.com'>Github</a>, share it with us and we will keep track of it below.
-                                    </li>
-                            </ol>
-                            
-                            <div id='share-project' style='display:none;'>
-                                <div class='well'>
-                                    
-                                    <p>Add a project for us to track. We <a href='https://docs.google.com/spreadsheet/viewform?formkey=dHZIeHpudy0yYkxvSzR6dXJQYVVKQ1E6MA#gid=0' target='_blank'>automatically update</a> this list once your submit your <a href='https://github.com/'>Github</a> repository.</p>
-                                        
-                                        <form class="form-horizontal" role="form">
-                                        <div class="form-group">
-                                        <label for="github-url" class="col-lg-2 control-label">Github URL</label>
-                                        <div class="col-lg-10">
-                                        <input type="text" class="form-control" id="github-url" placeholder="https://github.com/my-name/my-project">
-                                        </div>
-                                        </div>
-                                        <div class="form-group">
-                                        <div class="col-lg-offset-2 col-lg-10">
-                                        <button  id='submit-project' type="submit" class="btn btn-success">Submit</button>
-                                        </div>
-                                        </div>
-                                        </form>
-                                        </div>
-                                        
-                                        <div id='submit-message' class="alert" style="display: none;"></div>
-                                        </div>
-                                        
-                                        <hr />
                             <h2>
                             <i class='icon-cogs'></i>
                             Repositories
                             <small id='infrastructure-count'></small>
                             </h2>
-                            <p>Are we missing your project? <a href='https://docs.google.com/spreadsheet/viewform?formkey=dHZIeHpudy0yYkxvSzR6dXJQYVVKQ1E6MA#gid=0' target='_blank'> Add them to our list!</a></p>
+                            <p>Are we missing your project? <a href='https://docs.google.com/spreadsheet/viewform?formkey=dHZIeHpudy0yYkxvSzR6dXJQYVVKQ1E6MA#gid=0'> Add them to our list!</a></p>
                             
                             <table id='repo-table' class='table table-striped'>
                             <thead>
